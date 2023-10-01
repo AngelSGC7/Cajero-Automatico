@@ -1,0 +1,16 @@
+.mybank{
+    display:inline;
+    font-size: xx-large;
+}
+
+.bar{
+    display: inline-block;
+    position: relative;
+    left: 70%;
+    padding: 10px;
+    color: black;
+}
+.bank{
+    padding: 10px;
+    background-color: black;
+}
