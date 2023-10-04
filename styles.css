@@ -1,6 +1,7 @@
 .mybank{
     display:inline;
     font-size: xx-large;
+    color: greenyellow;
 }
 
 .bar{
@@ -11,6 +12,61 @@
     color: black;
 }
 .bank{
-    padding: 10px;
-    background-color: black;
+    font-size: x-large;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+}
+
+.number1{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    top: 250px;
+    left: 700px;
+}
+
+.income{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    top: 250px;
+    left: 690px;
+}
+
+.number2{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    top: 290px;
+    left: 343px;
+}
+
+.withdraw{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    top: 290px;
+    left: 323px;
+}
+
+.balance{
+display: flex;
+position: relative;
+justify-content: center;
+top: 145px;
+left: 100px;
+}
+
+.add{
+   position: relative;
+   top: 250px;
+   left: 710px;
+}
+
+.ret{
+    position: relative;
+    top: 290px;
+    left: 350px;
 }
