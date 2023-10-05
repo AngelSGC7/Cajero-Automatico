@@ -76,3 +76,28 @@ left: 100px;
     style:display none;
 }
 
+.login{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+left: 500px;
+top: 300px;
+}
+
+body{
+    background-image: url(./html-color-codes-color-tutorials-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 3200px;
+    background-position: center;
+}
+
+.top-bar{
+    display: inline;
+    position: relative;
+    top: -310px;
+    left: -470px;
+    font-size: xx-large;
+}
+
+
