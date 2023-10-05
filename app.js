@@ -33,3 +33,24 @@ function withdraw() {
         alert("Fondos insuficientes o cantidad no válida.");
     }
 }
+
+
+
+const loginCont = document.querySelector("#login");
+
+const cuentaCont = document.querySelector("#cuenta");
+
+cuentaCont.style.display = "none";
+
+const submitP = document.getElementById("submitP");
+
+submitP.addEventListener("click", function () {
+    const passwordI = document.getElementById("passwordI").value;
+    const usernameI = document.getElementById("username").value;
+    if (passwordI === "2007" && usernameI === "AngelGCO777") {
+        loginCont.style.display = "none";
+        cuentaCont.style.display = "block";
+    } else {
+        alert("Incorrecto, intente de nuevo.");
+    }
+});
