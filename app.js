@@ -14,6 +14,7 @@ function deposit() {
         balance += amount;
         document.getElementById("balance2").textContent = balance;
         alert(`Usted depositó $${amount}`);
+        amountInput.value = "";
     } else {
         alert("Por favor, ingrese una cantidad válida mayor que cero.");
     }
@@ -27,6 +28,7 @@ function withdraw() {
         balance -= amount;
         document.getElementById("balance2").textContent = balance;
         alert(`Usted retiró $${amount}`);
+        amountInput.value = "";
     } else {
         alert("Fondos insuficientes o cantidad no válida.");
     }
